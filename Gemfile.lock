@@ -158,6 +158,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.0.0)
+  figaro
   httparty
   jbuilder (~> 2.0)
   jquery-rails (~> 4.0.0.beta2)
