@@ -1,0 +1,14 @@
+<h2>Hello</h2>
+
+<%# if !session %>
+<div>Please <a href="https://api.login.yahoo.com/oauth2/request_auth?client_id=dj0yJmk9OGQyMFhxa1dZU2k2JmQ9WVdrOWVtazFSa3N5TnpRbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD0yZA--&redirect_uri=oob&response_type=code&language=en-us" target="_blank">sign in</a>.</div>
+<%# else %>
+<!-- <div> Name </div> -->
+<%# end %>
+
+
+
+
+<div>
+  <%=link_to "root", root_url %>
+</div>
